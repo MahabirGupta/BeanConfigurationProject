@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/BeanConfigurationProject.iml" filepath="$PROJECT_DIR$/.idea/BeanConfigurationProject.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SpringAnnotation.iml" filepath="$PROJECT_DIR$/SpringAnnotation.iml" />
     </modules>
   </component>
 </project>
