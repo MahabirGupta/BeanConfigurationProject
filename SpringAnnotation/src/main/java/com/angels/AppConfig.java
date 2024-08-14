@@ -10,4 +10,9 @@ public class AppConfig {
     public Samsung getPhone(){
         return new Samsung();
     }
+
+    @Bean
+    public MobileProcessor getMobileProcessor(){
+        return new SnapDragon();
+    }
 }
