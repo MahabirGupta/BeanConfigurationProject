@@ -11,7 +11,7 @@ public class App
 {
     public static void main( String[] args )
     {
-        ApplicationContext context = new AnnotationConfigApplicationContext();
+        ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
         Samsung samsung = context.getBean(Samsung.class);
         samsung.config();
     }

@@ -2,7 +2,7 @@ package com.angels;
 
 import org.springframework.stereotype.Component;
 
-@Component
+
 public class Samsung {
 
 //    create a config method
