@@ -1,12 +1,16 @@
 package com.angels;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 
+@Component //Non qualified and Decapitalised("samsung")
 public class Samsung {
 
     @Autowired
+//    @Qualifier("mediaTek")
+    @Qualifier("snapDragon")
      MobileProcessor mobileProcessor;
 
 //     generate getters and setters
